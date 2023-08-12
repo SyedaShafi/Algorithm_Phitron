@@ -1,0 +1,10 @@
+*.exe
+*.cph
+*.vscode
+input.txt
+output.txt
+
+//*.cph
+/*.exe
+/input.txt
+/output.txt
