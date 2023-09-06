@@ -16,10 +16,10 @@ void dijkstra(int node)
     {
         pii pr = pq.top();
         pq.pop();
-        vis[node] = true;
         int u, w;
         w = pr.first;
         u = pr.second;
+        vis[u] = true;
         for (auto ele : graph[u])
         {
             int nn, nw;
