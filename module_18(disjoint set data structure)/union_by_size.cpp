@@ -8,7 +8,7 @@ void dsu_set(int n)
 {
     for (int i = 1; i <= n; i++)
     {
-        parent[i] = 1;
+        parent[i] = -1;
         parentSize[i] = 1;
     }
 }

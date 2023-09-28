@@ -14,7 +14,7 @@ void merge(int a[], int l, int mid, int r)
         k++;
     }
     k = 0;
-    for (int i = mid + 1; i <= r; i++)
+    for (int i = mid + 1; i <= r; i++) 
     {
         R[k] = a[i];
         k++;

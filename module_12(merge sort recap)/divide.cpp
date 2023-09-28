@@ -4,8 +4,6 @@ using namespace std;
 const int N = 1e7 + 1;
 void divide(int a[], int l, int r)
 {
-    // if (l == r)
-    //     return;
     for (int i = l; i <= r; i++)
         cout << a[i] << " ";
     cout << "\n";

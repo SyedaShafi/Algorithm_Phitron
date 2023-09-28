@@ -36,7 +36,7 @@ void union_by_size(int a, int b)
         else
         {
             parent[leader_of_a] = leader_of_b;
-            parentSize[leader_of_a] += parentSize[leader_of_b];
+            parentSize[leader_of_b] += parentSize[leader_of_a];
         }
     }
 }
